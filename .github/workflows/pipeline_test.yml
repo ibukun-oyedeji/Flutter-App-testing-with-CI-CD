@@ -15,7 +15,7 @@ jobs:
         channel: 'stable'
 
     - name: Build app
-      run: flutter build ios 
+      run: flutter run 
 
     - name: Install Maestro
       run: curl -Ls "https://get.maestro.mobile.dev" | bash
