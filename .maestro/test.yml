@@ -1,0 +1,8 @@
+appId: com.example.cicdTestApp
+--- 
+- launchApp
+- assertVisible: "Flutter Demo Home Page"
+- assertVisible: "You have pushed the button this many times:"
+- assertVisible: "0"
+- tapOn: "Increment"
+- assertVisible: "1"
