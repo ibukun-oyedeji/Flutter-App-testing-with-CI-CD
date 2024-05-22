@@ -17,7 +17,7 @@ jobs:
       - name: Start iOS Simulator # Add this step for iOS
         uses: futureware-tech/simulator-action@v1  # Install & Start simulator
         with:
-          model: 'iPhone 15' # Choose your desired simulator model
+          model: 'iPhone 15' # Choose your dswesired simulator model
 
       - name: Build app
         run: flutter build ios # Build iOS app
